@@ -1,0 +1,83 @@
+body {
+	background-color: lightskyblue;
+}
+
+nav {
+	background-color: rgb(35, 146, 197);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: solid slategray 3px;
+}
+
+nav>p {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+nav>section>a {
+	font-size: 20px;
+	text-decoration: none;
+	background-color: rgb(175, 165, 165);
+	color: black;
+	padding: 5px;
+	border: solid black 2px;
+	margin: 2px;
+}
+
+.nav-current {
+	text-decoration: underline;
+}
+
+img {
+	height: 300px;
+	width: 450px;
+	align-self: flex-end;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	background-color: rgb(66, 167, 207);
+	margin: 0 15%;
+	border: solid slategray 3px;
+	border-top: 0;
+	border-bottom: solid 3px navy;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(66, 167, 207);
+	padding: 40px;
+	margin: 0 15%;
+	border: solid slategray 3px;
+	border-top: 0;
+
+}
+
+.container>p {
+	font-size: 24px;
+	width: 400px;
+	margin: 20px 60px;
+	align-self: center;
+}
+
+h2+p {
+	margin-right: 20px;
+	text-align: justify;
+}
+
+img+a {
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	/* text-decoration: none; */
+	background-color: rgb(61, 31, 231);
+	color: black;
+	width: 450px;
+	padding: 5px;
+	border: solid black 3px;
+}
